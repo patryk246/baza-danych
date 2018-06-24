@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TableLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:id="@+id/TableRo"
+        android:layout_width="match_parent"
+        android:layout_height="51dp">
+
+        <TextView
+            android:id="@+id/Marka"
+            android:layout_width="190dp"
+            android:layout_height="40dp"
+            android:background="@drawable/tlo_wiersza"
+            android:text="Marka" />
+
+        <TextView
+            android:id="@+id/Model"
+            android:layout_width="190dp"
+            android:layout_height="40dp"
+            android:layout_column="1"
+            android:background="@drawable/tlo_wiersza"
+            android:text="Model" />
+    </TableRow>
+</TableLayout>
